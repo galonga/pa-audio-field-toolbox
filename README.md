@@ -50,6 +50,7 @@ Analyze microphone input with:
 - Live waveform
 - FFT spectrum
 - Frequency display across the audible range
+- BPM Counter
 
 A simple way to inspect incoming audio signals in real time.
 
