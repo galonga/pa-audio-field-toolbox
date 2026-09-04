@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MinMon Kollektiv</string>
+    <string name="choose_dates">Events</string>
+    <string name="choose_podcast">Podcast</string>
+    <string name="choose_news">News</string>
+    <string name="page_home">Home</string>
+    <string name="page_settings">Settings</string>
+    <string name="order_other">Mehr</string>
+    <string name="record_screen">Record</string>
+    <string name="back_button">Zurück</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="general">General</string>_
+    <string name="theme">Theme</string>
+    <string name="theme_mode">Theme Color Mode</string>
+    <string name="theme_dynamic_colors_mode">Dynamic Color Mode</string>
+    <string name="theme_dynamic_colors_mode_desc">Align tonally with the color scheme through a selected color. (Android 12+)</string>
+    <string name="welcome">Wir sind das MinMon Kollektiv, welches sich aus kreativen Menschen zusammensetzt, die sich den vielen Facetten der elektronischen Musik verschrieben haben. Uns verbindet die Kreativität und die Liebe für kleine handgemachte Veranstaltungen an besonderen Orten.</string>
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and typesetting industry. Lorem
+        Ipsum has been the industry\'s standard placeholder text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book"</string>
+</resources>
