@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Content kept within the centered ~67% safe zone so the system's splash icon mask doesn't clip it. -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M41,75 h14 v50 h-14 z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M67,60 h14 v80 h-14 z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M93,45 h14 v110 h-14 z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M119,60 h14 v80 h-14 z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M145,75 h14 v50 h-14 z" />
+</vector>
