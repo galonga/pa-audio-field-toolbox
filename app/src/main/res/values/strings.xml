@@ -1,24 +1,115 @@
 <resources>
-    <string name="app_name">MinMon Kollektiv</string>
-    <string name="choose_dates">Events</string>
-    <string name="choose_podcast">Podcast</string>
-    <string name="choose_news">News</string>
-    <string name="page_home">Home</string>
-    <string name="page_settings">Settings</string>
-    <string name="order_other">Mehr</string>
+    <string name="app_name">Audio Field Toolbox</string>
+
+    <!-- Bottom navigation -->
+    <string name="tools_screen">Tools</string>
+    <string name="tools_screen_subheadline">Audio tools for people who work with sound.</string>
+    <string name="analyzer_screen">Analyzer</string>
+    <string name="generator_screen">Generator</string>
     <string name="record_screen">Record</string>
-    <string name="back_button">Zurück</string>
-    <string name="theme_system">System</string>
+    <string name="settings_screen">Settings</string>
+
+    <!-- Shared -->
+    <string name="action_back">Back</string>
+    <string name="action_clear">Clear</string>
+    <string name="label_system_default">System Default</string>
+
+    <!-- Tools -->
+    <string name="tool_db_calculator_title">dB Calculator</string>
+    <string name="tool_db_calculator_subtitle">Convert between Volts, dBu and dBV, plus dB/ratio conversions</string>
+    <string name="tool_delay_calculator_title">Delay Calculator</string>
+    <string name="tool_delay_calculator_subtitle">Convert between distance and delay time using the speed of sound</string>
+    <string name="tool_power_calculator_title">Power/Impedance Calculator</string>
+    <string name="tool_power_calculator_subtitle">Solve voltage, current, resistance and power from any two values</string>
+    <string name="tool_settings_subtitle">Dark mode and language</string>
+
+    <!-- dB Calculator -->
+    <string name="db_voltage_card_title">Voltage ↔ dBu / dBV</string>
+    <string name="db_volts_label">Volts (RMS)</string>
+    <string name="db_ratio_card_title">dB ↔ Ratio</string>
+    <string name="db_ratio_mode_voltage">Voltage (20·log)</string>
+    <string name="db_ratio_mode_power">Power (10·log)</string>
+    <string name="db_ratio_label">Ratio</string>
+
+    <!-- Delay Calculator -->
+    <string name="delay_card_title">Distance ↔ Delay Time</string>
+    <string name="delay_speed_of_sound_label">Speed of sound: %1$s m/s (dry air, 20°C)</string>
+    <string name="delay_unit_meters">Meters</string>
+    <string name="delay_unit_feet">Feet</string>
+    <string name="delay_distance_label">Distance</string>
+    <string name="delay_time_label">Delay Time</string>
+
+    <!-- Power/Impedance Calculator -->
+    <string name="power_card_title">Ohm\'s Law / Power</string>
+    <string name="power_hint">Enter any two values — the other two are solved automatically.</string>
+    <string name="power_voltage_label">Voltage</string>
+    <string name="power_current_label">Current</string>
+    <string name="power_resistance_label">Resistance / Impedance</string>
+    <string name="power_power_label">Power</string>
+
+    <!-- Analyzer -->
+    <string name="analyzer_start_action">Start analyzing</string>
+    <string name="analyzer_stop_action">Stop analyzing</string>
+    <string name="analyzer_listening">Listening…</string>
+    <string name="analyzer_tap_to_start">Tap to analyze microphone input</string>
+    <string name="analyzer_waveform_title">Waveform</string>
+    <string name="analyzer_spectrum_title">FFT Spectrum</string>
+    <string name="analyzer_bpm_title">BPM Counter</string>
+    <string name="analyzer_bpm_auto_label">Auto</string>
+    <string name="analyzer_bpm_tap_label">Tap</string>
+    <string name="analyzer_bpm_detecting">Detecting…</string>
+    <string name="analyzer_bpm_value">%1$d BPM</string>
+    <string name="analyzer_tap_tempo_button">Tap Tempo</string>
+
+    <!-- Signal Generator -->
+    <string name="generator_title">Signal Generator</string>
+    <string name="generator_play_action">Play</string>
+    <string name="generator_stop_action">Stop</string>
+    <string name="generator_playing">Playing…</string>
+    <string name="generator_tap_to_play">Tap to play through the speaker</string>
+    <string name="generator_volume_warning">Start at low volume — some waveforms and high frequencies can be loud or piercing.</string>
+    <string name="generator_waveform_card_title">Waveform</string>
+    <string name="generator_frequency_card_title">Frequency</string>
+    <string name="generator_sweep_card_title">Sweep</string>
+    <string name="generator_sweep_start_label">Start</string>
+    <string name="generator_sweep_end_label">End</string>
+    <string name="generator_sweep_duration_label">Duration: %1$ds</string>
+    <string name="generator_sweep_current_label">Current: %1$d Hz</string>
+    <string name="generator_amplitude_card_title">Amplitude</string>
+
+    <string name="waveform_sine">Sine</string>
+    <string name="waveform_square">Square</string>
+    <string name="waveform_triangle">Triangle</string>
+    <string name="waveform_sawtooth">Sawtooth</string>
+    <string name="waveform_sweep">Sweep</string>
+    <string name="waveform_white_noise">White Noise</string>
+    <string name="waveform_pink_noise">Pink Noise</string>
+
+    <!-- Record -->
+    <string name="record_title">DJM Recorder</string>
+    <string name="record_no_usb_title">No USB mixer connected</string>
+    <string name="record_no_usb_subtitle">Connect via USB-C — recording will use microphone</string>
+    <string name="record_midi_connected">MIDI handshake OK — REC LED should be solid</string>
+    <string name="record_midi_disconnected">MIDI not connected — REC LED will flash</string>
+    <string name="record_midi_unavailable">MIDI not available on this device</string>
+    <string name="record_usb_switch_hint">On the DJM-750MK2: set the SEND/RETURN selector switch to USB</string>
+    <string name="record_recording_usb">Recording from USB mixer…</string>
+    <string name="record_recording_mic">Recording from microphone…</string>
+    <string name="record_tap_usb">Tap to record from USB mixer</string>
+    <string name="record_tap_mic">Tap to record from microphone</string>
+    <string name="record_level_label">Level</string>
+    <string name="record_gain_label">Gain</string>
+    <string name="record_recordings_title">Recordings</string>
+    <string name="record_start_action">Start recording</string>
+    <string name="record_stop_action">Stop recording</string>
+    <string name="record_stop_playback_action">Stop playback</string>
+    <string name="record_delete_action">Delete</string>
+
+    <!-- Settings -->
+    <string name="settings_theme_title">Theme</string>
     <string name="theme_light">Light</string>
     <string name="theme_dark">Dark</string>
-    <string name="general">General</string>_
-    <string name="theme">Theme</string>
-    <string name="theme_mode">Theme Color Mode</string>
-    <string name="theme_dynamic_colors_mode">Dynamic Color Mode</string>
-    <string name="theme_dynamic_colors_mode_desc">Align tonally with the color scheme through a selected color. (Android 12+)</string>
-    <string name="welcome">Wir sind das MinMon Kollektiv, welches sich aus kreativen Menschen zusammensetzt, die sich den vielen Facetten der elektronischen Musik verschrieben haben. Uns verbindet die Kreativität und die Liebe für kleine handgemachte Veranstaltungen an besonderen Orten.</string>
-    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
-    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and typesetting industry. Lorem
-        Ipsum has been the industry\'s standard placeholder text ever since the 1500s, when an unknown printer took a
-        galley of type and scrambled it to make a type specimen book"</string>
+    <string name="settings_dynamic_color_title">Dynamic Colors</string>
+    <string name="settings_dynamic_color_description">Use colors from your wallpaper (Android 12+)</string>
+    <string name="settings_language_title">Language</string>
 </resources>

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Minmon" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.AudioToolbox" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!--
+      Branded launch screen, shown by androidx.core.splashscreen while the app cold-starts
+      (see MainActivity.installSplashScreen() / keepSplashOnScreen). "Theme.SplashScreen" here
+      resolves to the compat library's style (androidx.core:core-splashscreen), which backports
+      the Android 12+ SplashScreen API attributes down to minSdk — no AppCompat theme required.
+    -->
+    <style name="Theme.AudioToolbox.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.AudioToolbox</item>
+    </style>
 </resources>

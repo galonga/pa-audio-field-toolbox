@@ -1,0 +1,104 @@
+<resources>
+    <!-- Bottom navigation -->
+    <string name="tools_screen">Werkzeuge</string>
+    <string name="analyzer_screen">Analysator</string>
+    <string name="record_screen">Aufnahme</string>
+    <string name="settings_screen">Einstellungen</string>
+
+    <!-- Shared -->
+    <string name="action_back">Zurück</string>
+    <string name="action_clear">Zurücksetzen</string>
+    <string name="label_system_default">Systemstandard</string>
+
+    <!-- Tools -->
+    <string name="tool_db_calculator_title">dB-Rechner</string>
+    <string name="tool_db_calculator_subtitle">Umrechnung zwischen Volt, dBu und dBV sowie dB/Verhältnis-Umrechnungen</string>
+    <string name="tool_delay_calculator_title">Delay-Rechner</string>
+    <string name="tool_delay_calculator_subtitle">Umrechnung zwischen Entfernung und Verzögerungszeit anhand der Schallgeschwindigkeit</string>
+    <string name="tool_power_calculator_title">Leistungs-/Impedanzrechner</string>
+    <string name="tool_power_calculator_subtitle">Berechnet Spannung, Strom, Widerstand und Leistung aus zwei beliebigen Werten</string>
+    <string name="tool_settings_subtitle">Dunkelmodus und Sprache</string>
+
+    <!-- dB Calculator -->
+    <string name="db_voltage_card_title">Spannung ↔ dBu / dBV</string>
+    <string name="db_volts_label">Volt (RMS)</string>
+    <string name="db_ratio_card_title">dB ↔ Verhältnis</string>
+    <string name="db_ratio_mode_voltage">Spannung (20·log)</string>
+    <string name="db_ratio_mode_power">Leistung (10·log)</string>
+    <string name="db_ratio_label">Verhältnis</string>
+
+    <!-- Delay Calculator -->
+    <string name="delay_card_title">Entfernung ↔ Verzögerungszeit</string>
+    <string name="delay_speed_of_sound_label">Schallgeschwindigkeit: %1$s m/s (trockene Luft, 20 °C)</string>
+    <string name="delay_unit_meters">Meter</string>
+    <string name="delay_unit_feet">Fuß</string>
+    <string name="delay_distance_label">Entfernung</string>
+    <string name="delay_time_label">Verzögerungszeit</string>
+
+    <!-- Power/Impedance Calculator -->
+    <string name="power_card_title">Ohmsches Gesetz / Leistung</string>
+    <string name="power_hint">Gib zwei beliebige Werte ein — die anderen beiden werden automatisch berechnet.</string>
+    <string name="power_voltage_label">Spannung</string>
+    <string name="power_current_label">Strom</string>
+    <string name="power_resistance_label">Widerstand / Impedanz</string>
+    <string name="power_power_label">Leistung</string>
+
+    <!-- Analyzer -->
+    <string name="analyzer_start_action">Analyse starten</string>
+    <string name="analyzer_stop_action">Analyse stoppen</string>
+    <string name="analyzer_listening">Hört zu…</string>
+    <string name="analyzer_tap_to_start">Tippen, um das Mikrofonsignal zu analysieren</string>
+    <string name="analyzer_waveform_title">Wellenform</string>
+    <string name="analyzer_spectrum_title">FFT-Spektrum</string>
+    <string name="analyzer_bpm_title">BPM-Zähler</string>
+    <string name="analyzer_bpm_detecting">Wird erkannt…</string>
+    <string name="analyzer_tap_tempo_button">Tap-Tempo</string>
+
+    <!-- Signal Generator -->
+    <string name="generator_title">Signalgenerator</string>
+    <string name="generator_play_action">Abspielen</string>
+    <string name="generator_stop_action">Stopp</string>
+    <string name="generator_playing">Wird abgespielt…</string>
+    <string name="generator_tap_to_play">Tippen, um über den Lautsprecher abzuspielen</string>
+    <string name="generator_volume_warning">Bei geringer Lautstärke beginnen — manche Wellenformen und hohe Frequenzen können laut oder schrill sein.</string>
+    <string name="generator_waveform_card_title">Wellenform</string>
+    <string name="generator_frequency_card_title">Frequenz</string>
+    <string name="generator_sweep_start_label">Start</string>
+    <string name="generator_sweep_end_label">Ende</string>
+    <string name="generator_sweep_duration_label">Dauer: %1$ds</string>
+    <string name="generator_sweep_current_label">Aktuell: %1$d Hz</string>
+
+    <string name="waveform_sine">Sinus</string>
+    <string name="waveform_square">Rechteck</string>
+    <string name="waveform_triangle">Dreieck</string>
+    <string name="waveform_sawtooth">Sägezahn</string>
+    <string name="waveform_white_noise">Weißes Rauschen</string>
+    <string name="waveform_pink_noise">Rosa Rauschen</string>
+
+    <!-- Record -->
+    <string name="record_title">DJM-Recorder</string>
+    <string name="record_no_usb_title">Kein USB-Mixer verbunden</string>
+    <string name="record_no_usb_subtitle">Über USB-C verbinden — sonst erfolgt die Aufnahme über das Mikrofon</string>
+    <string name="record_midi_connected">MIDI-Verbindung OK — REC-LED sollte durchgehend leuchten</string>
+    <string name="record_midi_disconnected">MIDI nicht verbunden — REC-LED blinkt</string>
+    <string name="record_midi_unavailable">MIDI auf diesem Gerät nicht verfügbar</string>
+    <string name="record_usb_switch_hint">Am DJM-750MK2: SEND/RETURN-Schalter auf USB stellen</string>
+    <string name="record_recording_usb">Aufnahme vom USB-Mixer…</string>
+    <string name="record_recording_mic">Aufnahme vom Mikrofon…</string>
+    <string name="record_tap_usb">Tippen, um vom USB-Mixer aufzunehmen</string>
+    <string name="record_tap_mic">Tippen, um vom Mikrofon aufzunehmen</string>
+    <string name="record_level_label">Pegel</string>
+    <string name="record_recordings_title">Aufnahmen</string>
+    <string name="record_start_action">Aufnahme starten</string>
+    <string name="record_stop_action">Aufnahme stoppen</string>
+    <string name="record_stop_playback_action">Wiedergabe stoppen</string>
+    <string name="record_delete_action">Löschen</string>
+
+    <!-- Settings -->
+    <string name="settings_theme_title">Design</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="settings_dynamic_color_title">Dynamische Farben</string>
+    <string name="settings_dynamic_color_description">Farben aus deinem Hintergrundbild verwenden (Android 12+)</string>
+    <string name="settings_language_title">Sprache</string>
+</resources>

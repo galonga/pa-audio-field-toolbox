@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'de.minmon.design'
+    namespace 'de.galonga.audiotoolbox.design'
     compileSdk 36
 
     defaultConfig {
@@ -51,7 +51,4 @@ dependencies {
     api libs.androidx.compose.material3
     api libs.androidx.compose.material3.window.size
     api libs.androidx.compose.material.icons.extended
-    api libs.richtext.commonmark
-    api libs.androidx.paging.common.ktx
-    api libs.androidx.paging.compose
 }

@@ -2,22 +2,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <!-- USB host mode: allows detecting class-compliant USB audio devices (e.g. Pioneer DJM mixers) -->
     <uses-feature android:name="android.hardware.usb.host" android:required="false" />
 
     <application
-        android:name=".App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Minmon"
+        android:theme="@style/Theme.AudioToolbox"
         tools:targetApi="31">
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -25,14 +23,14 @@
             android:exported="false"
             tools:node="merge">
             <meta-data
-                android:name="de.minmon.app.startup.KoinInitializer"
+                android:name="de.galonga.audiotoolbox.app.startup.KoinInitializer"
                 android:value="androidx.startup" />
         </provider>
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Minmon">
+            android:theme="@style/Theme.AudioToolbox.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
