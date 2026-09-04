@@ -123,19 +123,11 @@ It is also an experiment in building a useful application with a deliberately si
 The project is intentionally kept small and focused so that the audio-related implementation remains easy to explore.
 
 ## Screenshots
+<img src="./docs/001.png" width="200">
+<img src="./docs/002.png" width="200">
+<img src="./docs/003.png" width="200">
+<img src="./docs/004.png" width="200">
 
-Add screenshots to the `screenshots/` directory and link them here, for example:
-
-```text
-screenshots/
-├── tools.png
-├── db-calculator.png
-├── delay-calculator.png
-├── power-impedance.png
-├── signal-generator.png
-├── analyzer.png
-└── recorder.png
-```
 
 ## Project structure
 
